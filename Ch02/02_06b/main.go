@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 func main() {
+	m := time.Now()
 
-	fmt.Println("Dates and times")
+	fmt.Println("Current Time is : ", m)
 
 }
